@@ -71,8 +71,8 @@ function Home() {
       </div>
 
       <div className="flex flex-col sm:px-4 sm:space-y-4 ">
-        <div className="flex flex-col sm:flex-row sm:text-center px-6 sm:space-x-7 sm:px-12  sm:h-80 ">
-          <div className=" py-8  px-8 sm:px-0 sm:py-8 shadow-lg rounded-xl">
+        <div className="flex flex-col  sm:flex-row sm:text-center px-6 sm:space-x-7 sm:px-12  sm:h-80 ">
+          <div className=" py-8 px-8 sm:px-0 sm:py-8 shadow-lg rounded-xl">
             <img className="ml-8 sm:w-24 sm:h-24" src={search} alt="" />
             <p className="text-xl ">Search doctor</p>
             <p className="text-gray-400 ">
@@ -80,7 +80,7 @@ function Home() {
               trusted hospitals
             </p>
           </div>
-          <div className=" py-8  px-8 sm:px-0 sm:py-8 shadow-lg rounded-xl">
+          <div className=" py-8  px-8 my-8 sm:my-0 sm:px-0 sm:py-8 shadow-lg rounded-xl">
             <img className="ml-8 sm:w-24 sm:h-24" src={search} alt="" />
             <p className="text-xl ">Search doctor</p>
             <p className="text-gray-400 ">
@@ -98,7 +98,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:text-center px-6 sm:space-x-7 sm:px-12  sm:h-80 ">
+        <div className="flex flex-col  sm:flex-row sm:text-center px-6 sm:space-x-7 sm:px-12  sm:h-80 ">
           <div className=" py-8  px-8 sm:px-0 sm:py-8 shadow-lg rounded-xl">
             <img className="ml-8 sm:w-24 sm:h-24" src={search} alt="" />
             <p className="text-xl ">Search doctor</p>
@@ -107,7 +107,7 @@ function Home() {
               trusted hospitals
             </p>
           </div>
-          <div className=" py-8  px-8 sm:px-0 sm:py-8 shadow-lg rounded-xl">
+          <div className=" py-8 my-8 sm:my-0  px-8 sm:px-0 sm:py-8 shadow-lg rounded-xl">
             <img className="ml-8 sm:w-24 sm:h-24" src={search} alt="" />
             <p className="text-xl ">Search doctor</p>
             <p className="text-gray-400 ">
