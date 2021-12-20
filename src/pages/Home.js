@@ -1,5 +1,8 @@
 import React from "react";
 import Hero from "assets/image/hero1.png";
+import illustrasi2 from "assets/image/illustrasi2.svg";
+import illustrasi3 from "assets/image/illustration3.svg";
+
 import borderBot from "assets/image/border.png";
 
 import search from "assets/icons/Frame1.svg";
@@ -128,6 +131,46 @@ function Home() {
           <button className="text-blue-400  mt-4 bg-transparent border-blue-400 border rounded-3xl px-6 py-2 sm:mt-10">
             Learn More
           </button>
+        </div>
+      </div>
+      <div className="w-full px-6 mb-10">
+        <div className="flex flex-col-reverse py-12 sm:flex-row-reverse justify-between  ">
+          <div className=" mt-10 sm:mt-0 flex items-center flex-1   ">
+            <div className=" sm:-mt-20">
+              <h1 className=" text-gray-800 text-2xl sm:text-5xl font-medium">
+                Leading healthcare providers
+              </h1>
+              <p className="text-gray-500 mt-3 sm:mt-2">
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone. To us, it’s not
+                just work. We take pride in the solutions we deliver
+              </p>
+              <button className=" mt-4 text-blue-400  border border-blue-400 rounded-3xl px-6 py-2 sm:mt-10">
+                Download
+              </button>
+            </div>
+          </div>
+          <img src={illustrasi2} alt="" className="flex-2 mr-8" />
+        </div>
+      </div>
+      <div className="w-full px-6 mb-10">
+        <div className="flex flex-col sm:flex-row-reverse justify-between ">
+          <img src={illustrasi3} alt="" className="flex-2" />
+          <div className=" mt-10 sm:mt-0 flex items-center flex-1    ">
+            <div className=" sm:-mt-20">
+              <h1 className=" text-gray-800 px-2 text-2xl sm:text-5xl font-medium">
+                Download our mobile apps
+              </h1>
+              <p className="text-gray-500 mt-3 sm:mt-2">
+                Our dedicated patient engagement app and web portal allow you to
+                access information instantaneously (no tedeous form, long calls,
+                or administrative hassle) and securely
+              </p>
+              <button className="mt-4 text-blue-400 rounded-3xl border border-blue-400rounded-3xl px-6 py-2 sm:mt-10">
+                Download
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
