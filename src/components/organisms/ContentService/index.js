@@ -4,7 +4,7 @@ import kapsul from "assets/icons/Frame2.svg";
 import form from "assets/icons/Frame3.svg";
 import detail from "assets/icons/Frame4.svg";
 import p3k from "assets/icons/Frame5.svg";
-import track from "assets/icons/Frame3.svg";
+import track from "assets/icons/Frame6.svg";
 
 function ContentService() {
   const dataService = {
