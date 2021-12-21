@@ -1,0 +1,31 @@
+import React from "react";
+
+function Navbar() {
+  const dataNav = ["Home", "Find a Doctor", "Apps", "Testimonial", "About us"];
+  return (
+    <nav className="fixed w-full max-w-6xl bg-transparent  flex flex-row justify-between h-20  ">
+      <a href="/" className="flex focus:outline-none flex-row py-4 b">
+        <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full ">
+          <p className="text-center text-lg text-white sm:text-2xl bg-brand rounded-full font-bold font-sans pt-1">
+            T{" "}
+          </p>
+        </div>
+        <p className="text-lg sm:text-2xl px-1 pt-1">Trafalgar</p>
+      </a>
+      <ul className="list-none hidden  w-full px-4  sm:flex sm:flex-row sm:space-x-6  py-6 sm:justify-end">
+        {dataNav.map((data, index) => {
+          return (
+            <li
+              className="hover:text-black text-gray-500 cursor-pointer text-base"
+              key={index}
+            >
+              {data}
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  );
+}
+
+export default Navbar;
