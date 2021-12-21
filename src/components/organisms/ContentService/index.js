@@ -2,6 +2,9 @@ import React from "react";
 import search from "assets/icons/Frame1.svg";
 import kapsul from "assets/icons/Frame2.svg";
 import form from "assets/icons/Frame3.svg";
+import detail from "assets/icons/Frame4.svg";
+import p3k from "assets/icons/Frame5.svg";
+import track from "assets/icons/Frame3.svg";
 
 function ContentService() {
   const dataService = {
@@ -24,17 +27,17 @@ function ContentService() {
     ],
     data2: [
       {
-        img: search,
+        img: detail,
         title: "Details info",
         text: "Free consultation with our trusted doctors and get the best recomendations",
       },
       {
-        img: kapsul,
+        img: p3k,
         title: "Emergency care",
         text: "You can get 24/7 urgent care for yourself or your children and your lovely family",
       },
       {
-        img: form,
+        img: track,
         title: "Tracking",
         text: "Free consultation with our trusted doctors and get the best recomendations",
       },
