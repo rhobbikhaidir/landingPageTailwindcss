@@ -2,7 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./config/routes/App";
 import reportWebVitals from "./reportWebVitals";
-import "./assets/styles/tailwind.css";
+// import "./assets/styles/tailwind.css";
+import "./assets/styles/output.css";
+
+import "index.css";
+import "assets/Fonts/Mulish/Mulish-Regular.ttf";
+import "assets/Fonts/Mulish/Mulish-Bold.ttf";
+import "assets/Fonts/Mulish/Mulish-ExtraLight.ttf";
+import "assets/Fonts/Mulish/Mulish-SemiBold.ttf";
+
 // import "./assets/styles/output.css";
 
 ReactDOM.render(

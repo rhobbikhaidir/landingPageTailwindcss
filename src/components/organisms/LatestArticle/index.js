@@ -36,7 +36,7 @@ function LastArticle() {
         {dataArticle.map((res, index) => {
           return (
             <div
-              className="shadow-2xl rounded-2xl mt-4 sm:mt-0 py-4 space-y-2 "
+              className="shadow-shadowPrimary rounded-2xl mt-4 sm:mt-0 py-4 space-y-2 "
               key={index}
             >
               <img src={res.img} alt={res.img} />

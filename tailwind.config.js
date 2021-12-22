@@ -39,6 +39,7 @@ module.exports = {
       pink: colors.pink,
       rose: colors.rose,
       brand: "#458FF6",
+      brand2: "#67C3F3",
       bgMain: "#C4C4C4",
     }),
     columns: {

@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "assets/image/hero1.png";
-import illustrasi2 from "assets/image/illustrasi2.svg";
-import illustrasi3 from "assets/image/illustration3.svg";
+import illustrasi2 from "assets/image/illustration2.png";
+import illustrasi3 from "assets/image/illustration3.png";
 import people from "assets/image/people.png";
 
 import borderBot from "assets/image/border.png";
@@ -12,32 +12,28 @@ import LastArticle from "components/organisms/LatestArticle";
 
 function Home() {
   return (
-    <div className="h-max   ">
-      <div className="sm:px-20 px-6  ">
+    <div className="h-max">
+      <div className="sm:px-20 px-6 ">
         {/* Header  */}
         <Navbar />
         {/* penutup Header */}
 
         {/* Hero  */}
-        <div className="w-full px-6 py-12 ">
-          <div className="flex flex-col sm:flex-row-reverse justify-between ">
-            <img src={Hero} alt="" className="flex-2" />
-            <div className=" mt-10 sm:mt-0 flex items-center flex-1    ">
-              <div className=" sm:-mt-20">
-                <h1 className=" text-gray-800 px-2 text-2xl sm:text-5xl font-medium">
-                  Download our mobile apps
-                </h1>
-
-                <p className="text-gray-500 mt-3 sm:mt-2 px-2">
-                  Our dedicated patient engagement app and web portal allow you
-                  to access information instantaneously (no tedeous form, long
-                  calls, or administrative hassle) and securely
-                </p>
-                <button className="mt-4 text-white rounded-3xl bg-brand px-6 py-2 sm:mt-10">
-                  Download
-                </button>
-              </div>
+        <div className="w-full px-6 py-16 ">
+          <div className=" mt-10 sm:mt-0 flex flex-col-reverse sm:flex-row  items-center sm:space-x-14">
+            <div className="">
+              <h1 className="space-y-4 text-gray-800 px-2 text-2xl sm:text-5xl ">
+                Virtual healthcare <br /> for you
+              </h1>
+              <p className="text-gray-500 mt-3 sm:px-2 sm:w-9/12">
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone
+              </p>
+              <button className="mt-4 text-white rounded-3xl bg-brand px-6 py-2 sm:mt-6">
+                Download
+              </button>
             </div>
+            <img src={Hero} alt="" className="sm:w-6/12 sm:h-2/4 sm:pl-5" />
           </div>
         </div>
 
@@ -54,49 +50,51 @@ function Home() {
         </div>
 
         <ContentService />
-        <div className="w-full px-6 ">
-          <div className="flex flex-col-reverse py-12 sm:flex-row justify-between">
-            <img src={illustrasi2} alt="" className="flex-2 mr-8" />
+        <div className="w-full  py-16 ">
+          <div className=" mt-10 sm:mt-0 flex flex-col-reverse sm:flex-row  items-center sm:space-x-10">
+            <img src={illustrasi2} alt="" className="sm:w-2/4 sm:h-2/5 pr-4" />
 
-            <div className=" mt-10 sm:mt-0 flex items-center flex-1   ">
+            <div className=" mt-10 sm:mt-0 flex items-center">
               <div className=" sm:-mt-20">
                 <h1 className=" text-gray-800 text-2xl sm:text-5xl font-medium">
                   Leading healthcare providers
                 </h1>
-                <p className="text-gray-500 mt-3 sm:mt-2">
+                <p className="text-gray-500 mt-3 sm:mt-2 sm:w-9/12 pt-2">
                   Trafalgar provides progressive, and affordable healthcare,
                   accessible on mobile and online for everyone. To us, it’s not
                   just work. We take pride in the solutions we deliver
                 </p>
-                <button className=" mt-4 text-blue-400  border border-blue-400 rounded-3xl px-6 py-2 sm:mt-10">
+                <button className=" mt-4 text-blue-400  border border-blue-400 rounded-3xl px-6 py-2 sm:mt-6">
                   Download
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="w-full px-6 py-12 ">
-          <div className="flex flex-col sm:flex-row-reverse justify-between ">
-            <img src={illustrasi3} alt="" className="flex-2" />
-            <div className=" mt-10 sm:mt-0 flex items-center flex-1    ">
-              <div className=" sm:-mt-20">
-                <h1 className=" text-gray-800 px-2 text-2xl sm:text-5xl font-medium">
-                  Download our mobile apps
-                </h1>
-                <p className="text-gray-500 mt-3 sm:mt-2 px-2">
-                  Our dedicated patient engagement app and web portal allow you
-                  to access information instantaneously (no tedeous form, long
-                  calls, or administrative hassle) and securely
-                </p>
-                <button className="mt-4 text-brand rounded-3xl border border-brand px-6 py-2 sm:mt-10">
-                  Download
-                </button>
-              </div>
+        <div className="w-full px-6 py-16 ">
+          <div className=" mt-10 sm:mt-0 flex flex-col-reverse sm:flex-row  items-center sm:space-x-14">
+            <div className="">
+              <h1 className="space-y-4 text-gray-800 px-2 text-2xl sm:text-5xl font-medium">
+                Download our <br /> mobile apps
+              </h1>
+              <p className="text-gray-500 mt-3 sm:px-2 sm:w-9/12">
+                Our dedicated patient engagement app and web portal allow you to
+                access information instantaneously (no tedeous form, long calls,
+                or administrative hassle) and securely
+              </p>
+              <button className="mt-4 text-white rounded-3xl bg-brand px-6 py-2 sm:mt-6">
+                Download
+              </button>
             </div>
+            <img
+              src={illustrasi3}
+              alt=""
+              className="sm:w-6/12 sm:h-2/4 sm:pl-5"
+            />
           </div>
         </div>
         <div className="sm:px-12 py-14">
-          <div className="bg-brand py-12 rounded-3xl">
+          <div className="bg-gradient-to-tr from-brand to-brand2 py-12 rounded-3xl">
             <h1 className="text-white text-2xl sm:text-4xl mb-4 text-center">
               What our customer are saying
             </h1>
@@ -122,7 +120,7 @@ function Home() {
         </div>
         <LastArticle />
       </div>
-      <footer className=" sm:px-32 py-14 bg-brand flex flex-row ssm:pace-x-6">
+      <footer className=" sm:px-32 py-14 bg-gradient-to-t from-brand to-brand2 flex flex-row ssm:pace-x-6">
         <ul className=" sm:space-y-4 flex-1 space-y-2">
           <li className="flex flex-row sm:px-3">
             <div className="bg-white sm:h-10 sm:w-10 h-8 w-8 rounded-full ">
