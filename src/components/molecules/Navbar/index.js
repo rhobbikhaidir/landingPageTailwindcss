@@ -1,7 +1,39 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 function Navbar() {
-  const dataNav = ["Home", "Find a Doctor", "Apps", "Testimonial", "About us"];
+  const dataNav = [
+    {
+      id: Math.random(),
+      navLi: "Home",
+      path: "/",
+    },
+    {
+      id: Math.random(),
+      navLi: "Find a Doctor",
+      path: "/doctor",
+    },
+    {
+      id: Math.random(),
+      navLi: "Apps",
+      path: "/apps",
+    },
+    {
+      id: Math.random(),
+      navLi: "Testimonial",
+      path: "/testimonial",
+    },
+    {
+      id: Math.random(),
+      navLi: "About us",
+      path: "/about",
+    },
+  ];
+  const dataBaru = [...dataNav];
+  const navigate = useNavigate();
+  const handleChangePage = (path) => {
+    navigate(path);
+  };
+
   return (
     <nav className="fixed w-full max-w-6xl bg-transparent  flex flex-row justify-between h-20  ">
       <a href="/" className="flex focus:outline-none flex-row py-4 b">
@@ -14,12 +46,14 @@ function Navbar() {
       </a>
       <ul className="list-none hidden  w-full px-4  sm:flex sm:flex-row sm:space-x-6  py-6 sm:justify-end">
         {dataNav.map((data, index) => {
+          // console.log(data);
           return (
             <li
               className="hover:text-black text-gray-500 cursor-pointer text-base"
-              key={index}
+              key={data.id}
+              onClick={() => handleChangePage(data.path)}
             >
-              {data}
+              {data.navLi}
             </li>
           );
         })}

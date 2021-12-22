@@ -9,11 +9,12 @@ import borderBot from "assets/image/border.png";
 import Navbar from "components/molecules/Navbar";
 import ContentService from "components/organisms/ContentService";
 import LastArticle from "components/organisms/LatestArticle";
+import { WrapperContent, WrapperFull } from "components/atoms/Wrapper";
 
 function Home() {
   return (
-    <div className="h-max">
-      <div className="sm:px-20 px-6 ">
+    <WrapperFull>
+      <WrapperContent>
         {/* Header  */}
         <Navbar />
         {/* penutup Header */}
@@ -115,8 +116,9 @@ function Home() {
           </div>
         </div>
         <LastArticle />
-      </div>
-      <footer className=" sm:px-32 py-14 bg-gradient-to-t from-brand to-brand2 flex flex-row ssm:pace-x-6">
+        {/* penutup WrapperContent */}
+      </WrapperContent>
+      <footer className=" sm:px-32 py-14 bg-gradient-to-t from-brand to-brand2 flex flex-row sm:pace-x-6">
         <ul className=" sm:space-y-4 flex-1 space-y-2">
           <li className="flex flex-row sm:px-3">
             <div className="bg-white sm:h-10 sm:w-10 h-8 w-8 rounded-full ">
@@ -146,39 +148,45 @@ function Home() {
               Testimonials
             </li>
             <li className="text-white font-light text-xs sm:text-sm">
-              Fin a Doctor
+              Find a Doctor
             </li>
             <li className="text-white font-light text-xs sm:text-sm">Apps</li>
           </ul>
           <ul className="sm:space-y-3">
             <li className="flex flex-row text-white font-semibold text-lg sm:text-xl">
-              Company
-            </li>
-            <li className="text-white font-light text-xs sm:text-sm">About</li>
-            <li className="text-white font-light text-xs sm:text-sm">
-              Testimonials
+              Region
             </li>
             <li className="text-white font-light text-xs sm:text-sm">
-              Fin a Doctor
+              Indonesia
             </li>
-            <li className="text-white font-light text-xs sm:text-sm">Apps</li>
+            <li className="text-white font-light text-xs sm:text-sm">
+              Singapure
+            </li>
+            <li className="text-white font-light text-xs sm:text-sm">
+              Hongkong
+            </li>
+            <li className="text-white font-light text-xs sm:text-sm">Canada</li>
           </ul>{" "}
           <ul className="sm:space-y-3">
             <li className="flex flex-row text-white font-semibold text-lg sm:text-xl">
-              Company
-            </li>
-            <li className="text-white font-light text-xs sm:text-sm">About</li>
-            <li className="text-white font-light text-xs sm:text-sm">
-              Testimonials
+              Help
             </li>
             <li className="text-white font-light text-xs sm:text-sm">
-              Fin a Doctor
+              Help Center
             </li>
-            <li className="text-white font-light text-xs sm:text-sm">Apps</li>
+            <li className="text-white font-light text-xs sm:text-sm">
+              Contact support
+            </li>
+            <li className="text-white font-light text-xs sm:text-sm">
+              Instructions
+            </li>
+            <li className="text-white font-light text-xs sm:text-sm">
+              How it works
+            </li>
           </ul>
         </div>
       </footer>
-    </div>
+    </WrapperFull>
   );
 }
 

@@ -10,12 +10,15 @@ import "assets/Fonts/Mulish/Mulish-Regular.ttf";
 import "assets/Fonts/Mulish/Mulish-Bold.ttf";
 import "assets/Fonts/Mulish/Mulish-ExtraLight.ttf";
 import "assets/Fonts/Mulish/Mulish-SemiBold.ttf";
+import { BrowserRouter } from "react-router-dom";
 
 // import "./assets/styles/output.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
