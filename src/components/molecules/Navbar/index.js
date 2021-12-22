@@ -28,7 +28,6 @@ function Navbar() {
       path: "/about",
     },
   ];
-  const dataBaru = [...dataNav];
   const navigate = useNavigate();
   const handleChangePage = (path) => {
     navigate(path);
