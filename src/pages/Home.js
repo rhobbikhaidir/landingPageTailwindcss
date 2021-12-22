@@ -22,7 +22,7 @@ function Home() {
         <div className="w-full px-6 py-16 ">
           <div className=" mt-10 sm:mt-0 flex flex-col-reverse sm:flex-row  items-center sm:space-x-14">
             <div className="">
-              <h1 className="space-y-4 text-gray-800 px-2 text-2xl sm:text-5xl ">
+              <h1 className="space-y-4 text-gray-800 px-2 text-2xl sm:text-xl md:text-5xl">
                 Virtual healthcare <br /> for you
               </h1>
               <p className="text-gray-500 mt-3 sm:px-2 sm:w-9/12">
@@ -50,30 +50,26 @@ function Home() {
         </div>
 
         <ContentService />
-        <div className="w-full  py-16 ">
-          <div className=" mt-10 sm:mt-0 flex flex-col-reverse sm:flex-row  items-center sm:space-x-10">
-            <img src={illustrasi2} alt="" className="sm:w-2/4 sm:h-2/5 pr-4" />
-
-            <div className=" mt-10 sm:mt-0 flex items-center">
-              <div className=" sm:-mt-20">
-                <h1 className=" text-gray-800 text-2xl sm:text-5xl font-medium">
-                  Leading healthcare providers
-                </h1>
-                <p className="text-gray-500 mt-3 sm:mt-2 sm:w-9/12 pt-2">
-                  Trafalgar provides progressive, and affordable healthcare,
-                  accessible on mobile and online for everyone. To us, it’s not
-                  just work. We take pride in the solutions we deliver
-                </p>
-                <button className=" mt-4 text-blue-400  border border-blue-400 rounded-3xl px-6 py-2 sm:mt-6">
-                  Download
-                </button>
-              </div>
+        <div className="w-full px-6  sm:py-16 ">
+          <div className=" mt-10 sm:mt-0 flex flex-col sm:flex-row  justify-between  ">
+            <img src={illustrasi2} alt="" className="sm:w-6/12 sm:h-2/4 " />
+            <div className="pt-10 sm:pt-20  sm:pl-32">
+              <h1 className="space-y-4 text-gray-800 px-2 text-2xl sm:text-5xl ">
+                Virtual healthcare <br /> for you
+              </h1>
+              <p className="text-gray-500 mt-3 sm:px-2 sm:w-9/12">
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone
+              </p>
+              <button className="mt-4 text-brand border border-brand rounded-3xl  px-6 py-2 sm:mt-6">
+                Learn more
+              </button>
             </div>
           </div>
         </div>
         <div className="w-full px-6 py-16 ">
-          <div className=" mt-10 sm:mt-0 flex flex-col-reverse sm:flex-row  items-center sm:space-x-14">
-            <div className="">
+          <div className=" mt-10 sm:mt-0 flex items-center flex-col-reverse sm:flex-row   sm:space-x-14">
+            <div>
               <h1 className="space-y-4 text-gray-800 px-2 text-2xl sm:text-5xl font-medium">
                 Download our <br /> mobile apps
               </h1>
@@ -82,7 +78,7 @@ function Home() {
                 access information instantaneously (no tedeous form, long calls,
                 or administrative hassle) and securely
               </p>
-              <button className="mt-4 text-white rounded-3xl bg-brand px-6 py-2 sm:mt-6">
+              <button className="mt-4 text-brand border border-brand rounded-3xl  px-6 py-2 sm:mt-6">
                 Download
               </button>
             </div>
@@ -95,7 +91,7 @@ function Home() {
         </div>
         <div className="sm:px-12 py-14">
           <div className="bg-gradient-to-tr from-brand to-brand2 py-12 rounded-3xl">
-            <h1 className="text-white text-2xl sm:text-4xl mb-4 text-center">
+            <h1 className="text-white text-xl sm:text-4xl mb-4 text-center">
               What our customer are saying
             </h1>
             <div className="flex flex-col sm:flex-row sm:justify-around">
@@ -105,12 +101,12 @@ function Home() {
                   alt="people"
                   className="w-32 h-32 rounded-full"
                 />
-                <div className="mt-10 sm:ml-4">
+                <div className="mt-10 pl-4 ">
                   <p className="text-white">Edward Newgate</p>
                   <p className="text-gray-300">Founder Circle</p>
                 </div>
               </div>
-              <p className="text-gray-300 mt-2 flex max-w-xs sm:mt-0 px-6 sm:px-0 items-center">
+              <p className="text-gray-300 mt-6 flex max-w-xs sm:mt-0 px-6 sm:px-0 items-center">
                 “Our dedicated patient engagement app and web portal allow you
                 to access information instantaneously (no tedeous form, long
                 calls, or administrative hassle) and securely”

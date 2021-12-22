@@ -27,7 +27,7 @@ function LastArticle() {
   ];
 
   return (
-    <div className="px-12 py-12">
+    <div className="px-6 sm:px-12 py-12">
       <div className="text-center cursor-pointer py-8 ">
         <h2 className="text-3xl  ">Check out our latest article</h2>
         <img src={borderBot} alt="" className="block m-auto w-16 py-8" />

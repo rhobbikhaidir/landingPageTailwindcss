@@ -44,10 +44,10 @@ function ContentService() {
 
   return (
     <div className="text-center sm:px-20">
-      <div className="grid grid-cols-1 gap-7  sm:grid-cols-3 sm:gap-7">
+      <div className="grid grid-cols-1 gap-7  sm:grid-cols-2 md:grid-cols-3 sm:gap-7">
         {dataService.data.map((res) => {
           return (
-            <div className=" py-8 px-8 row-span-3 sm:px-0 shadow-shadowPrimary rounded-xl">
+            <div className=" py-8 px-8 row-span-3 sm:px-0 shadow-shadowPrimary rounded-xl ">
               <img
                 className="ml-4 sm:w-24 sm:h-24"
                 src={res.img}
