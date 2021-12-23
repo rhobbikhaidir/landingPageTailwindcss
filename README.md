@@ -1,4 +1,4 @@
-# STARTING DEVELOPMENT
+# STANDARISASI LITEDEX
 
 1. Standar pengkodingan menggunakan functional component
 2. Penamaan variabel
@@ -59,15 +59,31 @@ file ini berfungsi untuk memudahkan import export dalam project
 
 ### **\*\*postscss.config.js\*\***
 
-Berisi untuk menghubungkan tailwin dan autoprefixer
+Berisi untuk menghubungkan tailwind dan autoprefixer
 
 ### **\*\*tailwind.config.js\*\***
 
 file ini berfungsi menambahkan costum styling, atau membawa default stylng dari tailwindcss
 
+### **\*\*.pretierrc\*\***
+
+Berfungsi format code
+
 ### **\*\*.gitignore\*\***
 
 file ini berfungsi untuk mengabaikan beberapa item yang tidak dibutuhkan saat dikirim ke repository.
+
+# Referensi
+
+- Prawito hudoro (Atomic Design)
+- BuildWithAngga.com (jsConfig.json)
+- Anker Kumar Dev.to (.prettierrc)
+
+# Extension Visual Studio Code
+
+- ESLint
+- Tailwind CSS intelliSense
+- ES7 React/Redux/GraphQL/React-Native snippets
 
 # Getting Started with Create React App
 
