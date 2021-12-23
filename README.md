@@ -86,6 +86,14 @@ file ini berfungsi untuk mengabaikan beberapa item yang tidak dibutuhkan saat di
 - Tailwind CSS intelliSense
 - ES7 React/Redux/GraphQL/React-Native snippets
 
+# Tailwindcss Optimizing for Production
+
+### Getting the most performance out of Tailwind CSS projects.
+
+### Tailwind CSS is incredibly performance focused and aims to produce the smallest CSS file possible by only generating the CSS you are actually using in your project.
+
+#### Reffensi https://tailwindcss.com/docs/optimizing-for-production
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
