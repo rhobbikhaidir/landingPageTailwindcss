@@ -81,6 +81,7 @@ file ini berfungsi untuk mengabaikan beberapa item yang tidak dibutuhkan saat di
 
 # Extension Visual Studio Code
 
+- Prettier
 - ESLint
 - Tailwind CSS intelliSense
 - ES7 React/Redux/GraphQL/React-Native snippets
