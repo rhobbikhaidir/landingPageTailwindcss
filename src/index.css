@@ -1,17 +1,12 @@
-@font-face {
-  font-family: "Mulish";
-  src: url("./assets/Fonts/Mulish/Mulish\ UI.ttf") format("trueType");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600&display=swap');
 
 body {
   margin: 0;
-  font-family: "Mulish";
+  font-family: 'Mulish';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: "Mulish";
+  font-family: 'Mulish';
 }

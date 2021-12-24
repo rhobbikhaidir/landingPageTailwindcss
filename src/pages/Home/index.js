@@ -1,15 +1,15 @@
-import React from "react";
-import Hero from "assets/image/hero1.png";
-import illustrasi2 from "assets/image/illustration2.png";
-import illustrasi3 from "assets/image/illustration3.png";
-import people from "assets/image/people.png";
+import React from 'react';
+import Hero from 'assets/image/hero1.png';
+import illustrasi2 from 'assets/image/illustration2.png';
+import illustrasi3 from 'assets/image/illustration3.png';
+import people from 'assets/image/people.png';
 
-import borderBot from "assets/image/border.png";
+import borderBot from 'assets/image/border.png';
 
-import Navbar from "components/molecules/Navbar";
-import ContentService from "components/organisms/ContentService";
-import LastArticle from "components/organisms/LatestArticle";
-import { WrapperContent, WrapperFull } from "components/atoms/Wrapper";
+import Navbar from 'components/molecules/Navbar';
+import ContentService from 'components/organisms/ContentService';
+import LastArticle from 'components/organisms/LatestArticle';
+import { WrapperContent, WrapperFull } from 'components/atoms/Wrapper';
 
 function Home() {
   return (
@@ -20,13 +20,13 @@ function Home() {
         {/* penutup Header */}
 
         {/* Hero  */}
-        <div className="w-full px-6 py-16 ">
-          <div className=" mt-10 sm:mt-0 flex flex-col-reverse sm:flex-row  items-center sm:space-x-14">
-            <div className="">
-              <h1 className="space-y-4 text-gray-800 px-2 text-2xl sm:text-xl md:text-5xl">
+        <div className="w-full px-6 py-24 ">
+          <div className=" mt-10 sm:mt-0 flex flex-col-reverse md:flex-row  items-center sm:space-x-8 md:space-x-14">
+            <div className="sm:pt-10">
+              <h1 className="space-y-4 text-gray-800 px-2 font-sans font-semibold text-2xl  md:text-5xl">
                 Virtual healthcare <br /> for you
               </h1>
-              <p className="text-gray-500 mt-3 sm:px-2 sm:w-9/12">
+              <p className="text-gray-500 mt-3  sm:px-2 md:w-9/12">
                 Trafalgar provides progressive, and affordable healthcare,
                 accessible on mobile and online for everyone
               </p>
@@ -34,7 +34,11 @@ function Home() {
                 Download
               </button>
             </div>
-            <img src={Hero} alt="" className="sm:w-6/12 sm:h-2/4 sm:pl-5" />
+            <img
+              src={Hero}
+              alt=""
+              className=" sm:w-8/12 lg:w-6/12 sm:h-2/4 sm:pl-5"
+            />
           </div>
         </div>
 
@@ -166,7 +170,7 @@ function Home() {
               Hongkong
             </li>
             <li className="text-white font-light text-xs sm:text-sm">Canada</li>
-          </ul>{" "}
+          </ul>{' '}
           <ul className="sm:space-y-3">
             <li className="flex flex-row text-white font-semibold text-lg sm:text-xl">
               Help

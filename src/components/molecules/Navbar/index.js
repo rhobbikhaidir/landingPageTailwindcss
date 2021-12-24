@@ -1,35 +1,35 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 function Navbar() {
   const dataNav = [
     {
       id: Math.random(),
-      navLi: "Home",
-      path: "/",
+      navLi: 'Home',
+      path: '/',
     },
     {
       id: Math.random(),
-      navLi: "Find a Doctor",
-      path: "/doctor",
+      navLi: 'Find a Doctor',
+      path: '/doctor',
     },
     {
       id: Math.random(),
-      navLi: "Apps",
-      path: "/apps",
+      navLi: 'Apps',
+      path: '/apps',
     },
     {
       id: Math.random(),
-      navLi: "Testimonial",
-      path: "/testimonial",
+      navLi: 'Testimonial',
+      path: '/testimonial',
     },
     {
       id: Math.random(),
-      navLi: "About us",
-      path: "/about",
+      navLi: 'About us',
+      path: '/about',
     },
   ];
   const navigate = useNavigate();
-  const handleChangePage = (path) => {
+  const handleChangePage = path => {
     navigate(path);
   };
 
@@ -38,7 +38,7 @@ function Navbar() {
       <a href="/" className="flex focus:outline-none flex-row py-4 b">
         <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full ">
           <p className="text-center text-lg text-white sm:text-2xl bg-brand rounded-full font-bold font-sans pt-1">
-            T{" "}
+            T{' '}
           </p>
         </div>
         <p className="text-lg sm:text-2xl px-1 pt-1">Trafalgar</p>
