@@ -2,7 +2,6 @@ import React from 'react';
 import dummy1 from 'assets/image/dummy1.png';
 import dummy2 from 'assets/image/dummy2.png';
 import dummy3 from 'assets/image/dummy3.png';
-import borderBot from 'assets/image/border.png';
 import Title from 'components/atoms/Title';
 
 function LastArticle() {
