@@ -92,7 +92,7 @@ file ini berfungsi untuk mengabaikan beberapa item yang tidak dibutuhkan saat di
 
 ### Tailwind CSS is incredibly performance focused and aims to produce the smallest CSS file possible by only generating the CSS you are actually using in your project.
 
-#### Reffensi https://tailwindcss.com/docs/optimizing-for-production
+#### Referensi https://tailwindcss.com/docs/optimizing-for-production
 
 # Getting Started with Create React App
 

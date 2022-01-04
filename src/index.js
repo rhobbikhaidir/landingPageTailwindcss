@@ -12,8 +12,6 @@ import 'assets/Fonts/Mulish/Mulish UI ExtraLight.ttf';
 import 'assets/Fonts/Mulish/Mulish UI SemiBold.ttf';
 import { BrowserRouter } from 'react-router-dom';
 
-// import "./assets/styles/output.css";
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
