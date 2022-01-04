@@ -44,7 +44,7 @@ function Navbar() {
         </div>
         <p className="text-lg  sm:text-2xl px-1 pt-1">Trafalgar</p>
       </a>
-      <ul className="list-none sm:hidden  w-full px-4  md:flex md:flex-row md:space-x-6  py-6 sm:justify-end">
+      <ul className="list-none hidden  w-full px-4  md:flex md:flex-row md:space-x-6  py-6 sm:justify-end">
         {dataNav.map((data, index) => {
           // console.log(data);
           return (
