@@ -43,18 +43,18 @@ function ContentService() {
   };
 
   return (
-    <div className="text-center px-6 md:px-10 md:max-w-full">
-      <div className="grid grid-cols-1 gap-7  md:grid-cols-2 lg:grid-cols-3 md:gap-5">
+    <div className="text-center px-2 lg:px-10 md:max-w-full">
+      <div className="grid grid-cols-1 gap-7  sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:gap-5">
         {dataService.data.map((res, index) => {
           return (
             <div
-              className=" py-8 px-8 row-span-3 sm:px-0 shadow-shadowPrimary bg-brand  w-11/12 md:w-full   rounded-xl "
+              className=" py-8 row-span-3 sm:px-0 shadow-shadowPrimary w-11/12 md:w-full   rounded-xl "
               key={index}
             >
               <img
                 className="ml-4 sm:w-24 sm:h-24"
                 src={res.img}
-                alt="search"
+                alt={res.title}
               />
               <p className="text-xl text-left px-4 py-4 ">{res.title}</p>
               <p className="text-gray-400 w-full text-left px-4  py-4 max-w-xs">
@@ -64,11 +64,6 @@ function ContentService() {
           );
         })}
       </div>
-      {/* <div className="text-center cursor-pointer">
-        <button className="text-brand  mt-4 bg-transparent border-brand border rounded-3xl px-6 py-2 sm:mt-10">
-          Learn More
-        </button>
-      </div> */}
     </div>
   );
 }

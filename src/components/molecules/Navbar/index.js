@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+
 function Navbar() {
   const dataNav = [
     {
@@ -41,14 +42,14 @@ function Navbar() {
             T{' '}
           </p>
         </div>
-        <p className="text-lg sm:text-2xl px-1 pt-1">Trafalgar</p>
+        <p className="text-lg  sm:text-2xl px-1 pt-1">Trafalgar</p>
       </a>
-      <ul className="list-none hidden  w-full px-4  sm:flex sm:flex-row sm:space-x-6  py-6 sm:justify-end">
+      <ul className="list-none sm:hidden  w-full px-4  md:flex md:flex-row md:space-x-6  py-6 sm:justify-end">
         {dataNav.map((data, index) => {
           // console.log(data);
           return (
             <li
-              className="hover:text-black text-gray-500 cursor-pointer text-base"
+              className="hover:text-black  text-gray-500 cursor-pointer text-base"
               key={data.id}
               onClick={() => handleChangePage(data.path)}
             >
